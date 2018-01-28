@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--	<title> Magic Carpet</title> -->
+ <style>
+ 	.div1 {
+ 		background-color: yellow;
+ 		width: 100%;
+ 		height: 100px;
+ 		}  
+	.div2 {
+		background-color: blue;
+		width: 1334px;
+ 		height: 9000px;
+		}
+	h1   {color: blue;}
+	p    {color: red;}
+</style> 
+</head>
+<body>
+	<div class="div1">
+	<p align="right"> Login/Signup </p>
+	</div>
+
+	<div class="div2">
+	Yes, a constructor can be private. There are different uses of this. One such use is for the singleton design anti-pattern, which I would advise against you using. Another, more legitimate use, is in delegating constructors; you can have one constructor that takes lots of different options that is really an implementation detail, so you make it private, but then your remaining constructors delegate to it.
+
+As an example of delegating constructors, the following class allows you to save a value and a type, but it only lets you do it for a subset of types, so making the general constructor private is needed to ensure that only the permitted types are used. The common private constructor helps code reuse.
+	</div>
+</body>
+</html>
