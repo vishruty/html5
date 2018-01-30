@@ -1,5 +1,5 @@
 ul {
-    	list-style-type: none;
+    	
     	margin-bottom: 0px;
         padding-bottom: 0px;
     	overflow: hidden;
@@ -7,6 +7,7 @@ ul {
 	}
 
 	li {
+		list-style-type: none;
     	float: left;
 
 	}
