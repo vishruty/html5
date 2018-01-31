@@ -1,12 +1,14 @@
-#heading{
-		font-family: parry_hotterregular;
-		color: white;
-		text-align: center;
-	}
-
 	.heading{
 		font-family: parry_hotterregular;
 		color: white;
+	}
+
+
+	.subHeading{
+		text-align: center;
+	}
+
+	.mainHeading{
 		font-size: 120px;
 		margin-left: 0px;
 		margin-top: 30px;
