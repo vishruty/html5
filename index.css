@@ -1,0 +1,23 @@
+#heading{
+		font-family: Parry Hotter;
+		color: white;
+		text-align: center;
+	}
+
+	.heading{
+		font-family: Parry Hotter;
+		color: white;
+		font-size: 120px;
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+
+
+	#text{
+		text-align: justify;
+		line-height: 27px;
+		font-size: 17px;
+		font-weight: bold;
+		color: #223454 ;
+		
+	}
