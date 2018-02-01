@@ -1,3 +1,9 @@
+	
+	.image{
+		margin-right: 0px; 
+		margin-top: 10px;
+	}
+
 	.heading{
 		font-family: parry_hotterregular;
 		color: white;
@@ -6,6 +12,12 @@
 
 	.subHeading{
 		text-align: center;
+
+		font-size: 50px; 
+		padding: 30px; 
+		background-color: #223454; 
+		margin-bottom: 15px; 
+		display:block;
 	}
 
 	.mainHeading{
@@ -14,11 +26,8 @@
 		margin-top: 30px;
 	}
 
-	body{
-		background-image: url("pictures/b5.png");
-		background-repeat: no-repeat;
-    	background-attachment: fixed;
-
+	.video{
+		 margin-bottom: 10px;
 	}
 
 	#text{

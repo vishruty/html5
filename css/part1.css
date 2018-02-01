@@ -1,14 +1,12 @@
-#text{
+`	#text{
 		text-align: justify;
 		line-height: 27px;
 		font-size: 17px;
 	}
 
-	#heading{
+	.heading{
 		font-family: parry_hotterregular;
-		color: white;
-		text-align: center;
-	}
+			}
 
 	li a {
   	  	text-decoration: none;
@@ -17,3 +15,41 @@
         font-size: 20px;
         color: black;
 	}
+
+	.para{
+		font-size: 22px ; 
+		color: white; 
+		text-align: justify;
+	}
+
+	.mainHeading{
+		color: white;
+		text-align: center;
+		font-size: 90px ; 
+		margin-bottom: 55px; 
+		margin-top: 30px;
+
+	}
+
+	.subHeading{
+		font-size: 50px; 
+		padding: 10px; 
+		color: black; 
+		background-color: white; 
+		margin-bottom: 10px; 
+		margin-top: 20px;
+	}
+	#p3{
+		margin-top: 10px ;
+	}
+
+	.video{
+		 margin-bottom: 10px;
+		 margin-top: 8px;
+	}
+
+	.image{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
